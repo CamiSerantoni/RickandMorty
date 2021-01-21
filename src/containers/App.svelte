@@ -1,9 +1,8 @@
 <script>
 	import { onMount } from "svelte";
-  import Card from "./components/Card.svelte";
-	import Header from './components/Header.svelte';
-	import Main from './components/Main.svelte';
-	import TimeLine from './components/TimeLine.svelte';
+	import Header from '../components/Header.svelte';
+	import Main from '../components/Main.svelte';
+	import TimeLine from '../components/TimeLine.svelte';
 
 
 let data ={}; 
