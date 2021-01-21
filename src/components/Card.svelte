@@ -7,17 +7,19 @@
     export let species; 
     export let status; 
     export let location;
+
 </script>
     
 <style>
   .Card {
 
     width: fit-content;
-    display: flex;
+    display: flex; 
     overflow: hidden;
     background: rgb(60, 62, 68);
     border-radius: 0.5rem;
-    margin: 10%;
+    margin: 1.80rem;
+    margin-left: 4.5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
 
@@ -87,6 +89,7 @@ span {
           <span> Origin: </span>
         <p>{origin.name}</p>
         <span>Location: </span> 
+  
            <p>{location.name} </p>
           
         </div>

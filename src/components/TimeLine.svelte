@@ -7,7 +7,7 @@ export let posts = [];
 
 
     {#each posts as post }
-      <Card {...post} /> 
+      <Card {...post} />
     {:else}
     <p> Loading...</p>
     {/each}

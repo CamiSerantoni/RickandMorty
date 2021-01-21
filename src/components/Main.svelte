@@ -1,8 +1,4 @@
-<div class="Main">
-<div class="Main-container">
-  <slot/>
-</div>
-</div>
+
 
 <!-- Main.svelte -->
 
@@ -21,3 +17,8 @@
   }
 </style>
 
+<div class="Main">
+  <div class="Main-container">
+    <slot/>
+  </div>
+  </div>
