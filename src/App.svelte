@@ -7,16 +7,17 @@
 	import TimeLine from './components/TimeLine.svelte';
 
 
-let data ={}; 
-const API = "https://rickandmortyapi.com/api/character"
+
+const API = "https://rickandmortyapi.com/api/character";
+let data = [];
+let characters = [];
 
 
 onMount(async () => {
 	const response = await fetch(API)
 	data = await response.json();
-	//  data.results.map((person)=> console.log(person));
-	console.log(data);
-})
+	characters = data.results;
+});
 
 </script>
 
@@ -45,6 +46,6 @@ onMount(async () => {
 
 <Header/>
 <Main>
-		<TimeLine posts={data.results} />
+		<TimeLine characters={data.results} />
 		<Sidebar  />
 </Main>

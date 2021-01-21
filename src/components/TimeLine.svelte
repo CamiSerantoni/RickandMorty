@@ -1,13 +1,13 @@
 
 <script> 
 import Card from './Card.svelte';
-export let posts = [];
+export let characters = [];
 </script>
 
 
 
-    {#each posts as post }
-      <Card {...post} />
+    {#each characters as character }
+      <Card {...character} />
     {:else}
     <p> Loading...</p>
     {/each}
