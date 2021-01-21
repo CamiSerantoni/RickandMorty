@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -882,26 +882,36 @@ var app = (function () {
     const file$2 = "src\\components\\Footer.svelte";
 
     function create_fragment$2(ctx) {
-    	let div;
+    	let div2;
+    	let div1;
+    	let div0;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "©  2021 RICK AND MORTY EGT CHALLANGE, MADE WITH LOVE BY CAMI RS";
-    			attr_dev(div, "class", "Footer svelte-kbe64f");
-    			add_location(div, file$2, 16, 0, 187);
+    			div2 = element("div");
+    			div1 = element("div");
+    			div0 = element("div");
+    			div0.textContent = "©  2021 RICK AND MORTY EGT CHALLANGE";
+    			attr_dev(div0, "class", "Footer-copy");
+    			add_location(div0, file$2, 21, 4, 313);
+    			attr_dev(div1, "class", "Footer-container");
+    			add_location(div1, file$2, 20, 2, 277);
+    			attr_dev(div2, "class", "Footer svelte-lt2mi9");
+    			add_location(div2, file$2, 19, 0, 253);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, div2, anchor);
+    			append_dev(div2, div1);
+    			append_dev(div1, div0);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div2);
     		}
     	};
 
@@ -962,10 +972,10 @@ var app = (function () {
     			if (default_slot) default_slot.c();
     			t = space();
     			create_component(footer.$$.fragment);
-    			attr_dev(div0, "class", "Main-container svelte-3ocev5");
-    			add_location(div0, file$3, 20, 0, 402);
-    			attr_dev(div1, "class", "Main svelte-3ocev5");
-    			add_location(div1, file$3, 19, 0, 382);
+    			attr_dev(div0, "class", "Main-container svelte-127rpa3");
+    			add_location(div0, file$3, 21, 0, 422);
+    			attr_dev(div1, "class", "Main svelte-127rpa3");
+    			add_location(div1, file$3, 20, 0, 402);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

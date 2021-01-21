@@ -12,8 +12,9 @@
     background: rgb(36, 40, 47);
     display: grid;
     grid-template-columns: 0fr 0fr;
-    padding: 4.5rem 0px;
-    padding-left: 5%;
+    padding: 1.5rem;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 </style>
 
