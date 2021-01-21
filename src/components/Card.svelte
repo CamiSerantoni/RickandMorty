@@ -67,30 +67,19 @@ span {
     font-weight: 500;
 }
 
-/* .status__iconAlive {
-    height: 0.5rem;
-    width: 0.5rem;
-    margin-right: 0.375rem;
-    background: rgb(85, 204, 68);
-    border-radius: 50%;
-} */
 </style>
 
 
-<div class="Card">
-  <div class="Card-container">  
+<div class="Card"> 
       <div class="card-body">
         <img class="Card-img" src={image} alt={""} > 
         <div class="Card-description">
           <h2> {name}</h2>  
           <p> <span style={ status === "Alive" ? "color: lightgreen" : status === "Dead"  ? "color: red" : "color:gray"}>{status}</span> - {species}</p>
           <span> Origin: </span>
-        <p>{origin.name}</p>
-        <span>Location: </span> 
+          <p>{origin.name}</p>
+          <span>Location: </span> 
            <p>{location.name} </p>
-          
         </div>
-    
       </div>
   </div>
-</div>

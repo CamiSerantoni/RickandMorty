@@ -3,35 +3,6 @@
 <!-- Header.svelte -->
 
 <style>
-  /* .Header {
-    background-color: white;
-    position: fixed;
-    width: 100%;
-  }
-  .Header-container {
-    grid-template-columns: minmax(auto, 936px);
-    display: grid;
-    justify-content: center;
-    background-color: white;
-    border-bottom: 1px solid rgba(38, 38, 38, 0.4);
-  }
-  .Header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5em;
-  } */
-
-  /* .Header li {
-    display: inline-block;
-    margin: 0 0 0 1em;
-  }
-  .Header i {
-    font-size: 16px;
-    color: rgba(38, 38, 38, 0.7);
-    cursor: pointer; */
-  /* } */
-
   h1 {
     margin: 0px;
     color: rgb(32, 35, 41);

@@ -15,9 +15,5 @@
 
 
 <div class="Footer">
-  <div class="Footer-container">
-    <div class="Footer-copy">
-      ©  2021 RICK AND MORTY ACTIVITY
-    </div>
-  </div>
+  ©  2021 RICK AND MORTY EGT CHALLANGE, MADE WITH LOVE BY CAMI RS
 </div>

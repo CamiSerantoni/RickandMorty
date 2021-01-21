@@ -1,12 +1,8 @@
-<div class="Main">
-<div class="Main-container">
-  <slot/>
-</div>
-</div>
-
-<!-- Main.svelte -->
-
+<script>
+  import Footer from "./Footer.svelte"; 
+</script>
 <style>
+   
   .Main {
     grid-template-columns: minmax(auto, 936px);
     justify-content: center;
@@ -21,3 +17,9 @@
   }
 </style>
 
+<div class="Main">
+<div class="Main-container">
+  <slot/>
+  <Footer/>
+</div>
+</div>
