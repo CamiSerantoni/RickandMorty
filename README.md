@@ -7,7 +7,7 @@ Es una aplicación web para fans de la serie Rick and Morty la que les permite v
 
 ## El proyecto se puede ver en este enlace: 
 
-https://rickand-morty.vercel.app/
+https://rickand-morty-tau.vercel.app/
 
 ## Tecnologías Utilizadas 🧰
 
@@ -18,4 +18,4 @@ https://rickand-morty.vercel.app/
 ## Cómo funciona? 
 Realiza un llamado a la Api de Rick and Morty  y permite visualizar información de los personajes desplegados. 
 
-### Camila Rojas S. 
+### Camila Serantoni 
