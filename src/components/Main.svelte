@@ -9,11 +9,11 @@
     background-color: #fafafa;
   }
   .Main-container {
-    background: rgb(36, 40, 47);
+   background: rgb(36, 40, 47);
     display: grid;
-    grid-template-columns: 0fr 0fr;
-    padding: 4.5rem 0px;
-    padding-left: 5%;
+    grid-template-columns: repeat(2, 1fr); /* Define dos columnas en la cuadrícula */
+    grid-gap: 1rem; /* Espaciado entre las tarjetas */
+    padding: 0.5rem;
   }
 </style>
 
