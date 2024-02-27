@@ -22,7 +22,7 @@
 
   .hero-image{
     width: 100%;
-    margin-top: -13%;
+    margin-top: -14%;
     height: 100%;
     fill: rgb(245, 245, 245);
   }
@@ -63,7 +63,7 @@
 }
 </style>
 
-    <section class="hero__Wrapper ">
+    <section class="hero__Wrapper">
      <h1 class="hero__Title"> Rick and Morty </h1>
      <p class="hero__Titleb"> Characters</p>
       <div class="hero-image">
