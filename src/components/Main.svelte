@@ -11,9 +11,9 @@
   .Main-container {
    background: rgb(36, 40, 47);
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Define dos columnas en la cuadrícula */
-    grid-gap: 1rem; /* Espaciado entre las tarjetas */
-    padding: 0.5rem;
+    grid-template-columns: repeat(2, 2fr); /* Define dos columnas en la cuadrícula */
+    grid-gap: 0rem; /* Espaciado entre las tarjetas */
+    padding: 3.5rem;
   }
 </style>
 
